@@ -7,12 +7,10 @@ int main()
 {
     string a;
 
-    // Loop untuk memastikan a terdiri dari minimal 3 kata
     while (true) {
         cout << "Masukkan Kalimat (minimal 3 kata): ";
         getline(cin, a);
 
-        // Hitung jumlah kata
         int wordCount = 0;
         bool inWord = false;
         for (char c : a) {
